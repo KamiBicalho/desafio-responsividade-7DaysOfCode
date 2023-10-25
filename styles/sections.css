@@ -1,0 +1,105 @@
+.container {
+    margin: 1rem;
+}
+
+.titulo__data {
+    font-weight: 700;
+    padding: 0.3rem 0;
+}
+
+.container__consulta {
+    border-radius: 0.5em;
+    background-color: var(--cor-fundo-branco);
+    margin-bottom: 1rem;
+}
+
+.container__consulta__topo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 1px solid var(--cor-borda);
+}
+
+.imagem__consultas {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+    background-size: 100%;
+}
+
+.imagem__luciana {
+    background-image: url(/img/luciana-dias.svg);
+}
+
+.imagem__marcos {
+    background-image: url(/img/marcos-correia.svg);
+}
+
+.imagem__larissa {
+    background-image: url(/img/larissa-santana.svg);
+}
+
+.imagem__clara{
+    background-image: url(/img/clara-lemos.svg);
+}
+
+.container__consulta__paciente {
+    width: 72%;
+}
+
+.container__consulta__paciente__nome {
+    font-weight: 700;
+}
+
+.container__consulta__tipo {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.container__consulta__tipo__texto {
+    font-size: 0.75rem;
+    color: var(--cor-texto-secundario);
+}
+
+.container__consulta__horario {
+    font-size: 0.75rem;
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+}
+
+.container__botao {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container__botao__ligar,
+.container__botao__endereco {
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    border: none;
+    margin: 0rem 1.1rem 1rem;
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+
+}
+
+.container__botao__ligar {
+    width: 50vw;
+}
+
+.container__botao__endereco {
+    width: 90vw;
+    color: var(--cor-texto-branco);
+    background-color: var(--cor-botao-endereco);
+}
+
+.container__botao__video {
+    background-color: var(--cor-botao-video);
+    color: var(--cor-texto-branco);
+}
+
+.container__botao__audio {
+    background-color: var(--cor-fundo-branco);
+    border: 1px solid var(--cor-borda);
+}
