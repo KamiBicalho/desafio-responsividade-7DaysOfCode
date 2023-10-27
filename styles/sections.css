@@ -40,7 +40,7 @@
     background-image: url(/img/larissa-santana.svg);
 }
 
-.imagem__clara{
+.imagem__clara {
     background-image: url(/img/clara-lemos.svg);
 }
 
@@ -102,4 +102,35 @@
 .container__botao__audio {
     background-color: var(--cor-fundo-branco);
     border: 1px solid var(--cor-borda);
+}
+
+@media screen and (min-width: 768px) {
+    .imagem__consultas {
+        width: 3.2rem;
+        height: 3rem;
+    }
+
+    .container__consulta__tipo__texto,
+    .container__consulta__horario {
+        font-size: 1.2rem;
+    }
+
+    .container__botao__ligar,
+    .container__botao__endereco {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container__consulta{
+        width: 28rem;
+    }
+
+    .container__grupo__consultas {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 2vw;
+    }
+
 }

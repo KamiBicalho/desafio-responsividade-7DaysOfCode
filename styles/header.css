@@ -21,3 +21,15 @@
 .cabecalho__consultas {
     color: var(--cor-texto-secundario);
 }
+
+@media screen and (min-width: 768px) {
+    .cabecalho__imagem {
+        width: 4.6rem;
+        height: 4.6rem;
+    }
+
+    .cabecalho__saudacao {
+        font-size: 2rem;
+    }
+
+}

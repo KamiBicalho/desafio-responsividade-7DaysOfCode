@@ -6,15 +6,17 @@
     box-shadow: 0 -0.25rem 0.5rem 0 rgba(0, 0, 0, 0.06);
     position: fixed;
     width: 100vw;
+    left: 0;
     height: 8vh;
-    top: 92vh;
+    bottom: 0;
 }
 
 .rodape__botao {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    padding: 0.5rem;
+    padding: 0.4rem;
+    text-align: center;
 }
 
 .rodape__imagens {
@@ -65,9 +67,29 @@
     align-items: flex-end;
     flex-direction: column;
     background-color: rgba(70, 70, 70, 0.6);
-    box-shadow: 0 0 0 100vh rgba(70, 70, 70, 0.6);
+    box-shadow: 0 0 0 300vh rgba(70, 70, 70, 0.6);
 }
 
 .opcoes__menu {
     display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .rodape__imagens{
+        width: 40%;
+        height: 40%;
+    }
+
+    .rodape__link {
+        font-size: 1.2rem;
+    }
+
+    .lista__menu__link {
+        font-size: 1.5rem;
+    }
+
+    .lista__menu__imagem {
+        width: 8rem;
+    }
+  
 }
