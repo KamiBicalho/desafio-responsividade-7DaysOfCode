@@ -121,7 +121,7 @@
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1024px) {
     .container__consulta{
         width: 28rem;
     }
