@@ -81,15 +81,51 @@
     }
 
     .rodape__link {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .lista__menu__link {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     .lista__menu__imagem {
         width: 8rem;
     }
-  
+
+}
+
+@media screen and (min-width: 970px) {
+    .rodape__menu {
+        justify-content:flex-start;
+        flex-direction: column;
+        border-radius: 0 0.75rem 0.75rem 0;
+        box-shadow: -0.25rem 0 0.5rem 0 rgba(0, 0, 0, 0.06);
+        width: 10rem;
+        right: 0;
+        height: 100vh;
+        top: 0;
+        padding-top: 1rem;
+    }
+
+    .rodape__botao {
+        flex-direction: row;
+        justify-content: flex-start;
+        padding: 0;
+        text-align: right;
+        align-items: center;
+    }
+    
+    .rodape__imagens {
+        margin: 0.1rem;
+    }
+
+    .opcoes {
+        bottom: 1%;
+        right: 1%;
+    }
+    
+    .rodape__link:hover{
+        color: var(--cor-botao-endereco);
+    }
+
 }

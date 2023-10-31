@@ -111,19 +111,17 @@
     }
 
     .container__consulta__tipo__texto,
-    .container__consulta__horario {
-        font-size: 1.2rem;
-    }
-
+    .container__consulta__horario, 
     .container__botao__ligar,
     .container__botao__endereco {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
+
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
     .container__consulta{
-        width: 28rem;
+        width: 23rem;
     }
 
     .container__grupo__consultas {
