@@ -241,7 +241,6 @@
     </section>
 
     <footer>
-        <div class="escurecer__tela"></div>
         <ul class="rodape__menu">
             <li class="rodape__botao">
                 <img src="/img/icones-rodape/calendario.svg" alt="Ícone de calendário."
@@ -260,8 +259,51 @@
                 <img src="/img/icones-rodape/menu.svg" alt="Ícone de calendário." class="rodape__imagens">
                 <a href="#" class="rodape__link">Menu</a>
             </li>
+            <div class="formulario">
+                <input type="checkbox" id="nova-consulta" class="formulario__cheked">
+                <label for="nova-consulta" class="formulario__rotulo">
+                    <li>
+                        <a class="formulario__titulo">Nova consulta</a>
+                    </li>
+                </label>
+                <form class="formulario__preencher">
+                    <div class="formulario__itens">
+                        <div class="formulario__secao">
+                            <label class="formulario__descricao">Nome:</label>
+                            <input type="text" name="nome-paciente" id="nome-paciente" class="input__nome">
+                        </div>
+                        <div class="formulario__secao">
+                            <label class="formulario__descricao">Sobrenome:</label>
+                            <input type="text" name="nome-paciente" id="nome-paciente" class="input__nome">
+                        </div>
+                        <div class="formulario__secao">
+                            <label class="formulario__descricao">Tipo de consulta:</label>
+                            <label class="input__consulta">
+                                <input type="radio" name="tipo-consulta" value="remoto" checked>Remota
+                                <input type="radio" name="tipo-consulta" value="pesencial">Presencial
+                            </label>
+                        </div>
+                        <div class="formulario__secao">
+                            <label class="formulario__descricao">Horário</label>
+                            <input type="time" name="hora-consulta" id="hora-consulta" min="08:00" max="18:00" class="input__horario">
+                        </div>
+                        <div class="formulario__secao">
+                            <label class="formulario__descricao">Observação:</label>
+                            <textarea row="10" name="observacao-paciente" id="observacao-paciente"></textarea>
+                        </div>
+                    </div>
+                    <div>
+                        <button type="submit" class="formulario__botao">Agendar</button>
+                        <button type="reset" class="formulario__botao">Limpar</button>
+                    </div>
+                </form>
+            </div>
         </ul>
 
+        <ul class="formulario">
+
+
+        </ul>
         <ul class="opcoes">
             <input type="checkbox" id="opcoes-menu" class="opcoes__menu">
             <label for="opcoes-menu" class="opcoes__rotulo">

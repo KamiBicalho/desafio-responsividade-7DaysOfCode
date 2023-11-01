@@ -74,6 +74,10 @@
     display: none;
 }
 
+.formulario{
+    display: none;
+}
+
 @media screen and (min-width: 768px) {
     .rodape__imagens{
         width: 40%;
@@ -100,7 +104,7 @@
         flex-direction: column;
         border-radius: 0 0.75rem 0.75rem 0;
         box-shadow: -0.25rem 0 0.5rem 0 rgba(0, 0, 0, 0.06);
-        width: 10rem;
+        width: 12rem;
         right: 0;
         height: 100vh;
         top: 0;
@@ -120,12 +124,101 @@
     }
 
     .opcoes {
-        bottom: 1%;
-        right: 1%;
+        display: none;
     }
     
     .rodape__link:hover{
         color: var(--cor-botao-endereco);
     }
 
+    .formulario{
+        display: flex;
+        position: fixed;
+        bottom: 5vh;
+    }
+    
+    .formulario__preencher {
+        display: none;
+    }
+
+    .formulario__cheked:checked ~ .formulario__preencher {
+        display: flex;
+        background-color: var(--cor-fundo-branco);
+        position: fixed;
+        left: 12rem;
+        bottom: 0;
+        padding: 1rem 10rem 1rem 0;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 88vw;
+    }
+
+    .formulario__titulo{
+        font-weight: 500;
+        margin: 0.5rem;
+        background-color: var(--cor-botao-endereco);
+        color: var(--cor-texto-branco);
+        border-radius: 2in;
+        padding: 1rem;
+    }
+
+    .formulario__itens{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .formulario__cheked{
+        display: none;
+    }
+
+    .formulario__secao{
+        display: flex;
+        flex-direction: column;
+        margin: 2rem 2rem;
+    }
+
+    .formulario__descricao{
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+
+    .formulario__botao{
+        width: 12rem;
+        background-color: var(--cor-botao-endereco);
+        color: var(--cor-texto-branco);
+        border: none;
+        border-radius: 1rem;
+        font-size: 1.5rem;
+        margin: 1.5rem;
+        padding: 1rem;
+    }
+
+    .input__nome{
+        border-radius: 1rem;
+        padding: 0.3rem;
+        width: 100%;
+        border: 2px solid var(--cor-botao-endereco);
+        font-size: 1rem;
+        font-family: var(--fonte-principal);
+    }
+
+    input[type="time"] {
+        width: 5rem;
+        text-align: center;
+        text-decoration: none;
+        font-family: var(--fonte-principal);
+        font-size: 1rem;
+        border: 2px solid var(--cor-botao-endereco);
+    }
+
+    textarea{
+        border-radius: 1rem;
+        border: 2px solid var(--cor-botao-endereco);
+        padding: 0.4rem;
+        font-family: var(--fonte-principal);
+        font-size: 0.8rem;
+
+    }
+    
 }

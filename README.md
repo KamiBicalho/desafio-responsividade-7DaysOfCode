@@ -3,7 +3,7 @@
 ## 📜 Projeto
 Uma clínica médica te contratou para desenvolver uma página responsiva para que seus médicos e médicas contratados possam ter controle sobre todas suas consultas agendadas, sejam elas presenciais ou remotas.
 
-## ⏳ Status: em progresso (5/7)
+## ⏳ Status: em progresso (6/7)
 Dia 1 - Transformar um layout do Figma em um site responsivo (Mobile Frist).
 ![Responsividade (1)](https://github.com/KamiBicalho/desafio-responsividade-7DaysOfCode/assets/132604923/3ea889f7-55b9-49bc-9a3e-e4f17dce9cf1)
 
@@ -16,6 +16,9 @@ Dia 4 - Usar media queries para ajudar a responsividade (mas eu acabei já usand
 
 Dia 5 -  Transformar o rodapé em formato de ‘menu lateral’ sempre que o site for acessado em dispositivos com telas maiores.
 ![Captura de tela 2023-10-31 155418](https://github.com/KamiBicalho/desafio-html-css-7DaysOfCode/assets/132604923/40502318-e032-42af-80b2-ab0bb680a708)
+
+Dia 6 - Esconder o botão flutuante no layout desktop e em seu lugar, exibir um pequeno formulário de cadastro logo abaixo das colunas de consultas.
+![Captura de tela 2023-11-01 101859](https://github.com/KamiBicalho/desafio-html-css-7DaysOfCode/assets/132604923/d336a83e-d1e8-498f-b76f-caaf42a458fa)
 
 ## ⌨️ Linguagens
 [![My Skills](https://skillicons.dev/icons?i=html,css)](https://skillicons.dev)
