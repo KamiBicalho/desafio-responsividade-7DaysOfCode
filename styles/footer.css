@@ -199,17 +199,19 @@
         padding: 0.3rem;
         width: 100%;
         border: 2px solid var(--cor-botao-endereco);
-        font-size: 1rem;
+        font-size: 1.2rem;
         font-family: var(--fonte-principal);
     }
 
-    input[type="time"] {
-        width: 5rem;
+    input[type="time"],
+    input[type="date"] {
+        width: auto;
         text-align: center;
         text-decoration: none;
         font-family: var(--fonte-principal);
-        font-size: 1rem;
+        font-size: 1.2rem;
         border: 2px solid var(--cor-botao-endereco);
+        margin: 0.3rem 0;
     }
 
     textarea{
@@ -218,7 +220,7 @@
         padding: 0.4rem;
         font-family: var(--fonte-principal);
         font-size: 0.8rem;
-
+        height: 3.6rem;
     }
     
 }
